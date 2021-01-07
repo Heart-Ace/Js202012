@@ -54,7 +54,7 @@ let SignArr = [],SignUrl = "";
     cookiesArr = [],CookieTxnews = "";
     VideoArr = [],SignUrl = "",order = "",
     detail = ``, subTitle = ``;
-let Account = ["傻狗"];
+let Account = ["傻狗","812190395"];
 
 if ($.isNode()) {
   if (process.env.TXNEWS_COOKIE && process.env.TXNEWS_COOKIE.indexOf('&') > -1) {
